@@ -1,0 +1,105 @@
+h1 {
+  color: red;
+}
+
+p {
+  font-style: italic;
+}
+
+section {
+    padding: 20px;
+}
+
+#firstSection {
+  margin: 10px 0;
+  padding: 10px;
+}
+
+#firstSection table {
+  border: solid;
+  border-width: 1px;
+  border-color: #9a7799;
+  border-collapse: collapse;
+}
+
+#firstSection th {
+  background: #9a7799;
+}
+
+#secondSection {
+  margin: 20px 0;
+  border: solid;
+  border-width: 1px;
+  border-color: #9a7799;
+}
+
+#thirdSection {
+  margin: 20px 0;
+  border: solid;
+  border-width: 1px;
+  border-color: #9a7799;
+}
+
+img {
+    
+  max-width: 200px;
+  max-height: 200px;
+}
+
+video {
+  max-width: 200px;
+  max-height: 200px;
+}
+
+/* Grid layout */
+.grid {
+  display: grid;
+  grid-template-columns: 400px auto 30%;
+  grid-template-rows: repeat(auto-fit, minmax(50px, 1fr));
+  grid-gap: 1em;
+}
+
+header {
+  text-align: center;
+  font-size: 20px;
+  /* Start on Row 1 */
+  grid-row: 1;
+  /* Start on the first column line and extend all the to the last column line */
+  grid-column: 1 / 4;
+}
+
+.sidebar-left {
+  /* Start on Row 2 */
+  grid-row: 2;
+  /* Start on the first column line and stop at the next column line */
+  grid-column: 1 / 2;
+}
+
+article {
+  /* Start on Row 2 */
+  grid-row: 2;
+  /* Start on the second column line and stop at the third column line */
+  grid-column: 2 / 3;
+}
+
+.sidebar-right {
+  /* Start on Row 2 */
+  grid-row: 2;
+  /* Start on the third column line and stop at the last column line */
+  grid-column: 3 / 4;
+}
+
+footer {
+  /* Start on Row 3, the last row */
+  grid-row: 3;
+  /* Start on the first column line and extend all the to the last column line */
+  grid-column: 1 / 4;
+}
+
+@media (max-width:1000px){
+    .grid {
+        display: block;
+        grid-template-rows: repeat(1, minmax(50px, 1fr));
+      }
+
+}
