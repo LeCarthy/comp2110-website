@@ -1,5 +1,7 @@
 # COMP2110 Website
 
+Github Pages link [https://lecarthy.github.io/comp2110-website/](https://lecarthy.github.io/comp2110-website/) (video doesn't work)
+
 ## Week 2 
 
 ### Tasks:
