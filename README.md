@@ -18,3 +18,8 @@ Github Pages link [https://lecarthy.github.io/comp2110-website/](https://lecarth
 
 ### Answer
 It changes all elements on the page to match the specified stylings. It affects all of them because only the element has been specified, not a class or an ID.
+
+
+## Week 3
+
+week3/index.html from [Zen Garden](http://www.csszengarden.com/)
